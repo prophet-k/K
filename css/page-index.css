@@ -1,0 +1,266 @@
+body{
+	background: url(../img/bd-bj.jpg) repeat-x;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+.w{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header{
+	/* background-color: orange; */
+	padding: 37px 0 46px 0;
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.nav{
+	margin-top: 22px;
+	float: right;
+}
+
+.nav li{
+	padding: 0 10px 8px ;
+	float: left;
+	border-left: 1px dotted #d6d6d6;
+}
+
+/* 设置导航条中超链接 */
+.nav a{
+	color: #666666;
+	font:  bold 14px Georgia;
+}
+
+.nav a:hover{
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+
+/* 设置导航图中小标题 */
+.nav p{
+	color: #d7d7d7;
+	font: 11px Tahoma;
+}
+
+.banner{
+	position: relative;
+	height: 345px;
+	background: url(../img/banner/banner-bg.png) no-repeat bottom center;
+}
+
+.pointer {
+	position: absolute;
+	top: 314px;
+	left: 15px;
+}
+
+.pointer a {
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-left: 4px;
+	background: url(../img/pointer.png);
+}
+
+.pointer .active,
+.pointer a:hover {
+	background: url(../img/pointer-active.png);
+}
+
+.content h1 {
+	padding: 6px 0 20px 0;
+	margin-bottom: 38px;
+	text-align: center;
+	font: bold 24px Georgia;
+	background: url(../img/line.png) no-repeat bottom center;
+}
+
+.content .pl,
+.content .cs,
+.content .uc,
+.contact .sc,
+.contact .co,
+.contact .nu {
+	float: left;
+	width: 300px;
+}
+
+.content .cs,
+.contact .co {
+	margin: 0 20px;
+}
+
+.content h2 {
+	color: #11719e;
+	font: 21px Georgia;
+}
+
+.content h3 {
+	color: #8c8c8c;
+	font: 12px Myriad Pro;
+}
+
+.content .imgDiv {
+	width: 299px;
+	height: 192px;
+	margin: 16px 0 10px 0;
+	padding-top: 12px;
+	background: url(../img/img-bg.png) no-repeat;
+	text-align: center;
+}
+
+.content p {
+	height: 92px;
+	color: #3e3e3e;
+	font: 13px Myriad Pro;
+}
+
+/**
+ * 按钮样式
+ */
+.content .lm {
+	display: block;
+	width: 163px;
+	height: 40px;
+	margin-bottom: 35px;
+	background: url(../img/btn1.png);
+	color: #016999;
+	font: 12px/40px helvetica;
+	text-indent: 1em;
+}
+
+.contact {
+	background: url(../img/line.png) no-repeat top center;
+}
+
+.contact h2 {
+	padding: 43px 0 10px 0;
+	border-bottom: 1px dashed #d3d3d3;
+	margin-bottom: 15px;
+	color: #444;
+	font: 18px/1 Georgia;
+}
+
+.contact .sc .p1 {
+	font: 12px/1 Helvetica;
+	color: #444;
+}
+
+.contact .sc .icon {
+	margin-top: 4px;
+	font-size: 0;
+}
+
+.contact .sc .icon a {
+	margin-right: 6px;
+}
+
+.contact .sc .nl {
+	padding: 38px 0 10px 0;
+	font: bold 18px "Gill Sans MT";
+}
+
+.contact .sc input {
+	margin: 8px 0 1px 0;
+}
+
+.contact .sc .txt {
+	padding-bottom: 0;
+}
+
+.contact .txt {
+	width: 276px;
+	height: 33px;
+	border: none;
+	padding: 0 10px 16px 10px;
+	margin: 0;
+	outline: none;
+	background: url(../img/input.png) no-repeat;
+}
+
+.contact .tarea {
+	width: 276px;
+	height: 114px;
+	border: none;
+	padding: 10px;
+	background: url(../img/textarea.png) no-repeat;
+	outline: none;
+	overflow: auto;
+	resize: none;
+}
+
+.contact .btn {
+	width: 163px;
+	height: 32px;
+	padding: 0;
+	margin: 11px 0 23px 0;
+	background: url(../img/btn2.png) no-repeat;
+	border: none;
+	color: #fff;
+	font: 13px Georgia;
+	text-align: left;
+	text-indent: 1em;
+	
+	cursor: pointer;
+}
+
+.contact .nu p {
+	height: 58px;
+	padding-bottom: 10px;
+	margin-bottom: 13px;
+	border-bottom: 1px dashed #d3d3d3;
+	color: #444;
+	font: 12px/1 helvetica;
+}
+
+.contact .nu img {
+	float: left;
+	margin-right: 8px;
+}
+
+.contact .nu p:last-of-type {
+	margin-bottom: 0;
+}
+
+/* 设置footer */
+.footer {
+	height: 173px;
+	border-top: 10px solid #4c4c4c;
+	background: #333;
+}
+
+.footer a,
+.footer p {
+	color: #999;
+	font: 11px helvetica;
+}
+
+.footer .copy {
+	float: right;
+}
+
+.footer .w {
+	padding-top: 18px;
+}
+
+.footer p {
+	margin: 0 23px 6px 8px;
+}
+
+.footer a:hover {
+	color: #d4d4d4;
+}
